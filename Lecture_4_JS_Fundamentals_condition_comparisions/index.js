@@ -18,8 +18,10 @@ if (number === 5) {
 } else {
   console.log("Incorrect data recieved from server");
 }
-console.log("Comparision output", age > 21);
+
 // Comparision Operators
+let age = 21;
+console.log("Comparision output", age > 21);
 if (age > 21) {
   console.log(name, "has completed graduation");
 } else if (age == 21) {
