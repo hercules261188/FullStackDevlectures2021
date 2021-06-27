@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nested Lists</title>
+  </head>
+  <body>
+    <p>
+      <!-- Links within a page -->
+      <a href="#shop-items">Navigate to Shop Items</a>
+    </p>
+    <!-- Nested lists -->
+    <dl>
+      <dt>
+        <b>HTML</b>
+      </dt>
+      <dd>HTML is a markup language</dd>
+      <dd>
+        <b>Versions</b>
+        <ul>
+          <li>HTML Version 4.1</li>
+          <li>HTML Version 5</li>
+        </ul>
+      </dd>
+    </dl>
+
+    <h3>
+      <a name="food-items">Food Recipe Items</a>
+    </h3>
+    <!-- Parent list -->
+    <ol>
+      <li>
+        Tea
+        <!-- Child list -->
+        <h5>Recipe Items</h5>
+        <ul>
+          <li>Tea powder</li>
+          <li>Milk</li>
+          <li>Water</li>
+          <li>Sugar</li>
+          <li>Ginger</li>
+        </ul>
+        <h5>Steps</h5>
+        <ol>
+          <li>Start the gas and keep the vessel</li>
+          <li>Add water, tea powder</li>
+        </ol>
+      </li>
+      <li>
+        Cake
+        <!-- Child list -->
+        <ul>
+          <li>Cake mix</li>
+          <li>Milk</li>
+          <li>Water</li>
+          <li>Sugar</li>
+        </ul>
+      </li>
+      <li>
+        Cake2
+        <!-- Child list -->
+        <ul>
+          <li>Cake mix</li>
+          <li>Milk</li>
+          <li>Water</li>
+          <li>Sugar</li>
+        </ul>
+      </li>
+      <li>
+        Cake3
+        <!-- Child list -->
+        <ul>
+          <li>Cake mix</li>
+          <li>Milk</li>
+          <li>Water</li>
+          <li>Sugar</li>
+        </ul>
+      </li>
+    </ol>
+
+    <h3>
+      <a name="shop-items">Shop items</a>
+    </h3>
+    <ul>
+      <li>Apples</li>
+      <li>Oranges</li>
+      <li>Banana</li>
+    </ul>
+
+    <a href="#food-items">Navigate to food items</a>
+  </body>
+</html>
