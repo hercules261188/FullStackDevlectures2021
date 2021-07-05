@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Input Types Version 2</title>
+  </head>
+  <body>
+    <p>Select input</p>
+    <form>
+      <label for="fruit-selector">Fruit selection:- </label>
+      <select name="fruit selector" id="fruit-selector">
+        <option value="apple">Apple</option>
+        <option value="orange">Orange</option>
+        <option value="pineapple">Pineapple</option>
+      </select>
+    </form>
+
+    <p>Text area input</p>
+    <form>
+      <label for="feedback-input"></label>
+      <textarea
+        name="feedback"
+        id="feedback-input"
+        cols="30"
+        rows="10"
+        placeholder="Enter feedback"
+      ></textarea>
+    </form>
+
+    <p>Button</p>
+    <form>
+      <input
+        type="button"
+        value="Submit"
+        onclick="console.log(`Submit clicked`)"
+      />
+      <button
+        type="button"
+        value="Submit"
+        onclick="console.log(`Submit clicked`)"
+      >
+        Submit
+      </button>
+    </form>
+
+    <p>Fieldset and Legend Example</p>
+    <form>
+      <fieldset>
+        <legend>Enter User Details</legend>
+        <label for="first-name">First Name:</label>
+        <input type="text" placeholder="Enter First Name" />
+        <br />
+        <label for="last-name">Last Name:</label>
+        <input type="text" placeholder="Enter Last Name" />
+      </fieldset>
+    </form>
+
+    <p>Data list</p>
+    <form>
+      <input list="fs-tech" />
+      <datalist id="fs-tech">
+        <option value="html"></option>
+        <option value="css"></option>
+        <option value="javascript"></option>
+      </datalist>
+    </form>
+  </body>
+</html>

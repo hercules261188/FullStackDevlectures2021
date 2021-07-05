@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Input Types in HTML</title>
+  </head>
+  <body>
+    <p>Radio Elements</p>
+    <form>
+      <input type="radio" id="red" name="fav_color" checked />
+      <label for="red">Red Color</label>
+      <input type="radio" id="yellow" name="fav_color" />
+      <label for="yellow">Yellow Color</label>
+      <input type="radio" id="purple" name="fav_color" />
+      <label for="purple">Purple Color</label>
+    </form>
+
+    <p>Color input</p>
+    <form>
+      <label for="color-picker"></label>
+      <input type="color" />
+    </form>
+
+    <p>Date input types</p>
+    <form>
+      <label for="birthday">Birth Day</label>
+      <input
+        type="date"
+        id="birthday"
+        name="birth-date-picker"
+        value="2014-02-09"
+      />
+    </form>
+
+    <p>Date and time type</p>
+    <form>
+      <label for="birthday">Birth Day</label>
+      <input
+        type="datetime-local"
+        id="birthday"
+        name="birth-date-picker"
+        value="2017-06-01T08:30"
+      />
+    </form>
+
+    <p>Date and time type</p>
+    <form>
+      <label for="time">Birth Day</label>
+      <input type="time" id="time" name="time-picker" value="14:30" />
+    </form>
+
+    <p>Month</p>
+    <form>
+      <label for="birthday">Birth Day</label>
+      <input type="month" id="birthday" name="birthday" value="14:30" />
+    </form>
+
+    <p>Email Input Type</p>
+    <form>
+      <label for="email-id"></label>
+      <input type="email" placeholder="Enter email address" id="email-id" />
+    </form>
+
+    <p>File Input Type</p>
+    <form>
+      <label for="file-input">File upload</label>
+      <input type="file" id="file-input" name="file input for resume" />
+    </form>
+
+    <p>Number input type</p>
+    <form>
+      <label for="numbers">Enter Quantity</label>
+      <input type="number" id="numbers" min="1" max="10" />
+    </form>
+
+    <p>Range slider</p>
+    <form>
+      <label for="volume">Set Volume</label>
+      <input type="range" id="volume" min="1" max="10" />
+    </form>
+
+    <p>Search</p>
+    <form>
+      <label for="search">Search Bar</label>
+      <input type="search" id="search" placeholder="Search Text" />
+    </form>
+
+    <p>Enter Mobile Number</p>
+    <form>
+      <label for="mobile-number"></label>
+      <input type="tel" id="mobile-number" pattern="[0-9+]{2}" size="2" />
+      -
+      <input
+        type="tel"
+        id="mobile-number"
+        name="mobile-number"
+        placeholder="Enter Mobile Number in format1234567890"
+        pattern="[0-9]{10}"
+        size="50"
+      />
+    </form>
+
+    <p>Check box input</p>
+    <input type="checkbox" id="checkbox-input" />
+    <label for="checkbox-input">Red color</label>
+    <input type="checkbox" id="checkbox-input" checked />
+    <label for="checkbox-input">Yellow color</label>
+  </body>
+</html>

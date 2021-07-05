@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form elements</title>
+  </head>
+  <body>
+    <form>
+      <p>
+        <label for="firstName">First Name:</label>
+        <input type="text" id="firstName" placeholder="Enter First Name" />
+      </p>
+
+      <p>
+        <label for="lastName">Last Name:</label>
+        <input type="text" id="lastName" placeholder="Enter Last Name" />
+      </p>
+
+      <p>
+        <label for="middleName">Middle Name:</label>
+        <input type="text" id="middleName" placeholder="Enter Middle Name" />
+      </p>
+
+      <p>
+        <label for="userPassword">User Password:</label>
+        <input
+          type="password"
+          id="userPassword"
+          placeholder="Enter User Password"
+        />
+      </p>
+      <p>
+        <label for="companyName">Company Name: </label>
+        <input type="text" placeholder="Enter Company Name" value="Microsoft" />
+      </p>
+      <input type="submit" value="Submit User Details" />
+      <input type="reset" />
+      <p>
+        <input
+          type="button"
+          value="Display value in console"
+          onclick="console.log(`Button has been clicked`)"
+        />
+      </p>
+    </form>
+  </body>
+</html>
