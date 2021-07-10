@@ -1,0 +1,8 @@
+h1 {
+  color: red;
+  font-size: 59px; /* px is pixels */
+}
+p {
+  color: green; /* semicolon */
+  font-weight: bold;
+}

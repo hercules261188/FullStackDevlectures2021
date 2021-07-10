@@ -1,0 +1,23 @@
+/* Selector using tag */
+h1 {
+  color: rebeccapurple;
+}
+
+/* Selector using class name */
+.red-color {
+  color: red;
+}
+
+.blue-color {
+  color: blue;
+}
+
+/* Selector using id */
+#content-heading {
+  color: yellowgreen;
+}
+
+/* Add pink color to p tag with id content-text */
+#content-text {
+  color: pink;
+}
