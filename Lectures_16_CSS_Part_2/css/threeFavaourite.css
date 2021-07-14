@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla:wght@400;700;800&display=swap");
+body {
+  margin: 0px;
+  font-family: "Karla", sans-serif;
+}
+.site-header {
+  background-color: #6c3fe8;
+  text-align: center;
+  color: white;
+  height: 40px;
+  font-size: 2rem;
+  padding: 15px 0px;
+}
+
+.title-text {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-top: 30px;
+}
+
+.list-container {
+  margin: 40px 40px;
+}
+
+.site-image {
+  width: 150px;
+  float: right;
+  border-radius: 10px 20px;
+}

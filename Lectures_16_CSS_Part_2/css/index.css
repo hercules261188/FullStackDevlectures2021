@@ -1,0 +1,50 @@
+.rem-text {
+  color: #16222f;
+  text-align: center;
+  font-size: 1rem;
+  font-weight: bold;
+}
+.em-text {
+  color: #16222f;
+  text-align: center;
+  font-size: 1em;
+}
+.px-text {
+  color: #16222f;
+  text-align: center;
+  font-size: 20px;
+}
+
+.blue-font {
+  color: blue;
+}
+
+.red-font {
+  color: red;
+  font-weight: 900;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.overline-text {
+  text-decoration: overline;
+}
+
+.underline-text {
+  text-decoration: underline;
+}
+
+.line-through-text {
+  text-decoration: line-through;
+}
+
+.capitalize-text {
+  text-transform: capitalize;
+}
+
+.lowercase-text {
+  text-transform: lowercase;
+}
+
+.uppercase-text {
+  text-transform: uppercase;
+}
