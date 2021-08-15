@@ -1,0 +1,9 @@
+.header {
+  background-color: var(--indigo);
+  color: white;
+  padding: 0.7rem;
+}
+
+.cart {
+  float: right;
+}
